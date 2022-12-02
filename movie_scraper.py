@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests, openpyxl
 
-#Format webscraped data into excel document witha title
+#Format webscraped data into excel document with a title
 excel = openpyxl.Workbook()
 sheet =excel.active
 sheet.title ='Top Rated Movies'
